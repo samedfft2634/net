@@ -5,7 +5,7 @@
 }
 body {
 	background: #00000036
-		url(https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/58fd707b-dc9a-464a-a10d-b2874adb2b2e/TR-tr-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+	url(https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/58fd707b-dc9a-464a-a10d-b2874adb2b2e/TR-tr-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
 	background-blend-mode: darken;
 	background-repeat: no-repeat;
 	position: center;
@@ -46,7 +46,7 @@ nav {
 	border-radius: 0.25rem;
 }
 
-.log-in {
+a {
 	background-color: red;
 	border: none;
 	color: white;
@@ -55,6 +55,9 @@ nav {
 	font-weight: bold;
 	cursor: pointer;
 	fill: currentColor;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 10px;
 }
 
 .main {
@@ -90,3 +93,4 @@ nav {
 	border: 0.5px solid #636363;
 	color: #fff;
 }
+
