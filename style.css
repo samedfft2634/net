@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: Helvetica, sans-serif;
 }
 body {
 	background: #00000036
@@ -13,7 +14,7 @@ body {
 }
 nav {
 	height: 10vh;
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 }
 
 .headbar {
@@ -42,17 +43,50 @@ nav {
 	border: 1px solid black;
 	color: white;
 	padding: 6px 36px;
-    border-radius: 0.25rem;
+	border-radius: 0.25rem;
 }
 
 .log-in {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 7px 24px;
-    border-radius: 0.25rem;
-    font-weight: bold;
-    cursor: pointer;
-    fill: currentColor;
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 7px 24px;
+	border-radius: 0.25rem;
+	font-weight: bold;
+	cursor: pointer;
+	fill: currentColor;
+}
 
+.main {
+	margin-top: 5%;
+}
+
+.join {
+	margin-bottom: 4%;
+	font-size: 3rem;
+}
+
+.par {
+	margin-bottom: 2%;
+	font-size: 1.5rem;
+}
+
+.start {
+	background-color: red;
+	border: none;
+	padding: 8px 44px 13px 44px;
+	cursor: pointer;
+	fill: currentColor;
+	border-radius: 0.25rem;
+	font-weight: bold;	
+	font-size: 24px;
+	color: #fff;
+}
+
+.mail {
+	padding: 16px 240px 16px 20px;
+	background-color: rgba(0, 0, 0, 0.537);
+	border-radius: 4px;
+	border: 0.5px solid #636363;
+	color: #fff;
 }
