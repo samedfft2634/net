@@ -50,8 +50,10 @@
 					</select>
 				</div>
 				<div class="box">
-					<label for="checkbox">Movie type</label>
 					<div class="check">
+						<label for="checkbox" class="labelid">Movie type</label>
+						<br />
+
 						<input type="checkbox" name="name" id="checkbox" />
 						Comedy <br />
 						<input type="checkbox" name="name" id="checkbox" />
@@ -65,10 +67,12 @@
 						Romance
 					</div>
 
-					<label for="radio">Gender</label>
 					<div class="radios">
-						<input type="radio" name="name" id="radio" /> Male <br>
-						<input type="radio" name="name" id="radio" /> Female <br>
+						<label for="radio" class="labelid">Gender</label> <br />
+						<input type="radio" name="name" id="radio" /> Male
+						<br />
+						<input type="radio" name="name" id="radio" /> Female
+						<br />
 						<input type="radio" name="name" id="radio" /> Other
 					</div>
 				</div>
@@ -78,12 +82,13 @@
 					<textarea
 						name="textarea"
 						id="feed"
-						cols="30"
-						rows="10"
+						cols="10"
+						rows="5"
 						placeholder="Any comment"
+						
 					></textarea>
 				</div>
-				<button id="submit">Submit</button>
+				<div class="submit"><button id="submit">Submit</button></div>
 			</form>
 		</div>
 	</body>
